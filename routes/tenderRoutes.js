@@ -2,7 +2,7 @@ const express = require("express");
 const multer = require("multer");
 const path = require("path");
 const Tender = require("../models/Tender");
-const verifyAdmin = require("../middleware/verifyAdmin");
+const verifyAdmin = require("../middleware/verifyadmin");
 
 const router = express.Router();
 
